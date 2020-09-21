@@ -1,0 +1,34 @@
+{
+  "slider-layout#laptop1": {
+    "children": [
+      "image#brand9",
+      "image#brand10"
+      ],
+      "props": {
+        "autoplay": {
+            "timeout": 5000,
+            "stopOnHover": false
+        },
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel"
+    }
+  },
+  "image#brand9": {
+    "props": {
+      "src": "https://user-images.githubusercontent.com/43679629/92658172-82354200-f2cc-11ea-92e5-f3aa3439a676.jpg",
+      "maxWidth": "200px"
+    }
+  },
+  "image#brand10": {
+    "props": {
+      "src": "https://user-images.githubusercontent.com/43679629/92658175-82354200-f2cc-11ea-967d-0e54579edb90.jpg",
+      "maxWidth": "200px"
+    }
+  }
+}
